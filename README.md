@@ -22,16 +22,7 @@ A simple and modern web app to search for delicious recipes from around the worl
 
 No build steps or dependencies required!
 
-## Folder Structure
 
-```
-your-goto-recipe-finder/
-├── index.html
-├── style.css
-├── theme.css
-├── script.js
-└── README.md
-```
 
 ## Credits
 
@@ -40,7 +31,7 @@ your-goto-recipe-finder/
 
 ## Author
 
-Made with ❤️ by Khairun Nessa Nazmin
+ Khairun Nessa Nazmin
 
 ---
 
