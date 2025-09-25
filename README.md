@@ -1,6 +1,6 @@
-# your-goto-recipe-finder
-Find The Recipe by just using main Ingredient name.
+# Your Goto Recipe Finder
 
+Find recipes by just using the main ingredient name.
 
 A simple and modern web app to search for delicious recipes from around the world. Powered by [TheMealDB API](https://www.themealdb.com/api.php).
 
@@ -22,16 +22,18 @@ A simple and modern web app to search for delicious recipes from around the worl
 
 No build steps or dependencies required!
 
-
-
 ## Credits
 
 - Data powered by [TheMealDB](https://www.themealdb.com/api.php)
 - Icons by [Font Awesome](https://fontawesome.com/)
 
+## Preview
+![Recipe Finder Home Screenshot](image-1.png)
+![Recipe Details Screenshot](image.png)
+
 ## Author
 
- Khairun Nessa Nazmin
+[Khairun Nessa Nazmin](https://www.linkedin.com/in/khairun-nessa-nazmin-39114424b/)
 
 ---
 
