@@ -31,6 +31,9 @@ No build steps or dependencies required!
 ![Recipe Finder Home Screenshot](image-1.png)
 ![Recipe Details Screenshot](image.png)
 
+## PPT
+[text](Recipe Finder.pptx)
+
 ## Author
 
 [Khairun Nessa Nazmin](https://www.linkedin.com/in/khairun-nessa-nazmin-39114424b/)
