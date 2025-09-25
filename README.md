@@ -32,7 +32,7 @@ No build steps or dependencies required!
 ![Recipe Details Screenshot](image.png)
 
 ## PPT
-[text](Recipe Finder.pptx)
+[PPT](Recipe Finder.pptx)
 
 ## Author
 
