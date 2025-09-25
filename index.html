@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Finder App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header class="app-header">
+        <div class="header-top">
+          <h1><i class="fas fa-utensils"></i> Recipe Finder</h1>
+          <!-- Theme Toggle Icon -->
+          <i id="theme-toggle" class="fas fa-moon theme-toggle-icon" title="Toggle theme"></i>
+        </div>
+        <p>Find delicious recipes from around the world  <i class="fa-solid fa-burger" style="color: #9d3306;"></i></p>
+      </header>
+
+      <!-- SEARCH SECTION -->
+      <main>
+        <section class="search-section">
+          <div class="search-container">
+            <div class="search-input-wrapper">
+              <i class="fas fa-search search-icon"></i>
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Search for meals or keywords..."
+              />
+            </div>
+            <button id="search-btn"><i class="fas fa-search"></i> Search</button>
+          </div>
+
+          <div id="error-container" class="hidden">
+            <p>No meals found. Try another search term!</p>
+          </div>
+
+          <!-- Popular categories quick buttons -->
+          <div class="categories">
+            <span class="category-pill">Chicken</span>
+            <span class="category-pill">Fish</span>
+            <span class="category-pill">Pasta</span>
+            <span class="category-pill">Seafood</span>
+            <span class="category-pill">Vegetarian</span>
+          </div>
+        </section>
+
+        <!-- RESULTS HEADING -->
+        <div id="result-heading"></div>
+
+        <!-- LOADER -->
+        <div id="loader" class="hidden">
+          <i class="fas fa-circle-notch fa-spin"></i>
+          <p>Loading recipes...</p>
+        </div>
+
+        <!-- MEALS LIST -->
+        <section id="meals" class="meals-container"></section>
+
+        <!-- MEAL DETAILS -->
+        <section id="meal-details" class="hidden">
+          <button id="back-btn">
+            <i class="fas fa-arrow-left"></i> Back to recipes
+          </button>
+
+          <div class="meal-details-content"></div>
+        </section>
+      </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p class="api-link">
+          Data powered by <a href="https://www.themealdb.com/api.php" target="_blank">TheMealDB 🧑‍🍳</a>
+        </p>
+        <p>Made with <i class="fa-solid fa-heart" style="color: red;"></i> by <strong>Khairun Nessa Nazmin</strong></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
