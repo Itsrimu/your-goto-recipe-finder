@@ -32,6 +32,7 @@ No build steps or dependencies required!
 ![Recipe Details Screenshot](image.png)
 
 ## PPT
+Here's Complete project PPT:
 [PPT](Recipe_Finder.pptx)
 
 ## Author
